@@ -1,0 +1,37 @@
+/* index.css */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Rubik+Bubbles&display=swap");
+/* Your existing styles go here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(33, 37, 41);
+  /* 
+  margin: 0;
+  /* overflow: hidden; Hide horizontal scrollbar caused by moving background */
+  /* background: linear-gradient(to right, #074211, #010a01);
+  animation: gradientAnimation 10s linear infinite; Adjust duration as needed */
+}
+
+/* @keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */

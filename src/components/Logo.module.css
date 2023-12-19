@@ -1,0 +1,31 @@
+.character {
+  color: rgb(232, 89, 12);
+}
+.star {
+  background-color: teal;
+  color: rgb(229 231 235);
+}
+@media (max-width: 800px) {
+  .star {
+    font-size: 32px;
+  }
+  .character {
+    font-size: 32px;
+  }
+}
+@media (max-width: 640px) {
+  .star {
+    font-size: 24px;
+  }
+  .character {
+    font-size: 24px;
+  }
+}
+@media (max-width: 460px) {
+  .star {
+    font-size: 18px;
+  }
+  .character {
+    font-size: 18px;
+  }
+}
